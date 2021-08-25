@@ -6,6 +6,7 @@ operation=$2
 
 if [ $operation == "plus" ]
 then
+  echo "Adding the numbers" > app.log
   result=$((a+b))
 elif [ $operation == "minus" ]
 then
