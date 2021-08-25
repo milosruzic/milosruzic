@@ -19,3 +19,5 @@ then
 fi
 
 echo $result
+
+echo "finish"
